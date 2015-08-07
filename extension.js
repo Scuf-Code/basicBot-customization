@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Scuf-Code";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,7 +56,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "ScufBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
@@ -103,12 +103,12 @@
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: null,
-        rulesLink: null,
-        themeLink: null,
+        opLink: "http://j.mp/TheUndergroundGuide",
+        rulesLink: "http://j.mp/TheUndergroundGuide",
+        themeLink: "http://j.mp/TheUndergroundGuide",
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: "http://j.mp/TheUndergroundGuide",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
